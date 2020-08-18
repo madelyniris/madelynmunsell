@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Alike;
-    src: url(./font/AlikeAngular-Regular.ttf);
+    font-family: oldEnglish;
+    src: url(./font/ArtOfIlluminating.ttf);
 }
 
 body {
@@ -13,10 +13,20 @@ body {
     margin-top: 75px;
     margin-bottom: 100px;
     margin-right: 150px;
-    margin-left: 150px;
+    margin-left: 50px;
   }
 
   h1{
-      color: gainsboro;
-      text-shadow: 2px 2px rgba(129, 14, 14, 0.726);
+      font-size: 80px;
+      font-family: oldEnglish;
+      color: rgba(88, 17, 5, 0.836);
+      text-shadow: 2px 2px rgba(4, 12, 7, 0.863);
+      
+  }
+  h2{
+      font-size: 45px;
+      font-family: oldEnglish;
+      color: rgba(88, 17, 5, 0.527);
+      text-shadow: 2px 2px rgba(4, 12, 7, 0.863);
+      
   }
