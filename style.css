@@ -2,6 +2,22 @@
     font-family: oldEnglish;
     src: url(./font/ArtOfIlluminating.ttf);
 }
+    .topnav {    
+        overflow: hidden;
+      }
+      .topnav a {
+        float: right;
+        color: rgba(133, 104, 81, 0.527);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: oldEnglish;
+        font-size: 20px;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
 
 body {
     background-image: url("./littledeaths.jpg");
@@ -10,23 +26,23 @@ body {
     background-position: center;
     background-size: 2500px 1600px;
 
-    margin-top: 75px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   h1{
       font-size: 80px;
       font-family: oldEnglish;
-      color: rgba(88, 17, 5, 0.836);
-      text-shadow: 2px 2px rgba(4, 12, 7, 0.863);
+      color: rgba(124, 38, 23, 0.836);
+      text-shadow: 2px 2px rgba(9, 26, 16, 0.719);
       
   }
   h2{
       font-size: 45px;
       font-family: oldEnglish;
-      color: rgba(88, 17, 5, 0.527);
-      text-shadow: 2px 2px rgba(4, 12, 7, 0.863);
+      color: rgba(133, 104, 81, 0.527);
+      text-shadow: 2px 2px rgba(9, 26, 16, 0.719);
       
   }
