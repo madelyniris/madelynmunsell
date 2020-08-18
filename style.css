@@ -62,4 +62,39 @@ h3{
     font-family: oldEnglish;
     color:   rgba(133, 104, 81, 0.527); 
 }
+
+input[type=text], select, textarea {
+    font-family: oldEnglish;
+    font-size: 20px;
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid rgba(204, 204, 204, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    background-color: #7a807b54;
+  }
+  
+  input[type=submit] {
+    background-color: #000000;
+    font-family: oldEnglish;
+    font-size: 20px;
+    color: rgba(133, 104, 81, 0.527); ;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #7a807b54;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f200;
+    padding: 20px;
+  }
     
