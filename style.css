@@ -1,7 +1,22 @@
 @font-face {
-    font-family: Timeless;
-    src: url(./font/Timeless.ttf);
+    font-family: Alike;
+    src: url(./font/AlikeAngular-Regular.ttf);
 }
 
-/*container
-div {font-family: 'Bitter', serif;} */
+body {
+    background-image: url("./littledeaths.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 2500px 1600px;
+
+    margin-top: 75px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  h1{
+      color: gainsboro;
+      text-shadow: 2px 2px rgba(129, 14, 14, 0.726);
+  }
