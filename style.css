@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'timeless';
-    src: url('timeless.woff') format ('woff');
-    src: url('timeless.ttf') format ('ttf');
+    font-family: Timeless;
+    src: url(./font/Timeless.ttf);
 }
-/*container*/
-div {font-family: 'timeless' serif;}
+
+/*container
+div {font-family: 'Bitter', serif;} */
