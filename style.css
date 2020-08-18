@@ -1,4 +1,6 @@
 @font-face {
     font-family: 'timeless';
-    src: url('desktop/a-thousand-little-deaths/Website/Timeless/Timeless.ttf');
+    src: url('Timeless/Timeless.ttf');
 }
+/*container*/
+div {font-family: 'timeless' serif;}
