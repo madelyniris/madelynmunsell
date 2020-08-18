@@ -4,8 +4,8 @@
 }
     .topnav {    
         overflow: hidden;
-      }
-      .topnav a {
+    }
+    .topnav a {
         float: right;
         color: rgba(133, 104, 81, 0.527);
         text-align: center;
@@ -13,11 +13,10 @@
         text-decoration: none;
         font-family: oldEnglish;
         font-size: 20px;
-      }
-      .topnav a:hover {
-        background-color: #ddd;
+    }
+    .topnav a:hover {
         color: black;
-      }
+    }
 
 body {
     background-image: url("./littledeaths.jpg");
@@ -30,19 +29,37 @@ body {
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
-  }
+    text-align: left;
+    }
 
-  h1{
-      font-size: 80px;
-      font-family: oldEnglish;
-      color: rgba(124, 38, 23, 0.836);
-      text-shadow: 2px 2px rgba(9, 26, 16, 0.719);
-      
-  }
-  h2{
-      font-size: 45px;
-      font-family: oldEnglish;
-      color: rgba(133, 104, 81, 0.527);
-      text-shadow: 2px 2px rgba(9, 26, 16, 0.719);
-      
-  }
+h1{
+    font-size: 80px;
+    font-family: oldEnglish;
+    color: rgba(124, 38, 23, 0.836);
+    text-shadow: 2px 2px rgba(9, 26, 16, 0.719); 
+    }
+h1:hover{
+    font-size: 80px;
+    font-family: oldEnglish;
+    color: rgba(0, 0, 0, 0.836);
+    text-shadow: 2px 2px rgba(9, 26, 16, 0.719); 
+    }
+
+h2{
+    font-size: 45px;
+    font-family: oldEnglish;
+    color: rgba(133, 104, 81, 0.527);
+    text-shadow: 2px 2px rgba(9, 26, 16, 0.719);    
+    }
+h2:hover{
+    font-size: 45px;
+    font-family: oldEnglish;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgba(9, 26, 16, 0.719);
+    }
+h3{
+    font-size: 20px;
+    font-family: oldEnglish;
+    color:   rgba(133, 104, 81, 0.527); 
+}
+    
