@@ -1,38 +1,13 @@
-<script>
-$(function()
-{
-    function after_form_submitted(data)
-    {
-        if(data.result == 'success')
-        {
-            $('#success_message').show();
-            $('#error_message').hide();
-        }
-        else
-        {
-            $('#error_message').append('<ul></ul>');
 
-            jQuery.each(data.errors,function(key,val)
-            {
-                $('#error_message ul').append('<li>'+key+':'+val+'</li>');
-            });
-            $('#success_message').hide();
-            $('#error_message').show();
-
-            //reverse the response on the button
-            $('button[type="button"]', $form).each(function()
-            {
-                $btn = $(this);
-                label = $btn.prop('orig_label');
-                if(label)
-                {
-                    $btn.prop('type','submit' );
-                    $btn.text(label);
-                    $btn.prop('orig_label','');
-                }
-            });
-
-        }
-    }
-});
-</script>
+   window.addEventListener("load", function() {
+      let form = document.querySelector("form");
+      form.addEventListener("submit", function(event) {
+         let usernameInput = document.querySelector("input[name=username]");
+         let teamName = document.querySelector("input[name=team]");
+         if (usernameInput.value === "" || teamName.value === "") {
+            alert("All fields are required!");
+            // stop the form submission
+            event.preventDefault();
+         }
+      });
+   });
